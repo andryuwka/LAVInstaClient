@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5975DCA01C1E03C300A9A54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DC9F1C1E03C300A9A54F /* main.m */; };
+		5975DCA31C1E03C300A9A54F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCA21C1E03C300A9A54F /* AppDelegate.m */; };
+		5975DCA91C1E03C300A9A54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5975DCA71C1E03C300A9A54F /* Main.storyboard */; };
+		5975DCAB1C1E03C300A9A54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5975DCAA1C1E03C300A9A54F /* Assets.xcassets */; };
+		5975DCAE1C1E03C300A9A54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5975DCAC1C1E03C300A9A54F /* LaunchScreen.storyboard */; };
+		5975DCB91C1E03C300A9A54F /* LAVInstaClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCB81C1E03C300A9A54F /* LAVInstaClientTests.m */; };
+		5975DCC41C1E03C300A9A54F /* LAVInstaClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCC31C1E03C300A9A54F /* LAVInstaClientUITests.m */; };
+		5975DCD61C1E0DA600A9A54F /* LAVFeedTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCD51C1E0DA600A9A54F /* LAVFeedTVC.m */; };
+		5975DCDD1C1E14D800A9A54F /* LAVHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCDB1C1E14D800A9A54F /* LAVHeaderCell.m */; };
+		5975DCDE1C1E14D800A9A54F /* LAVHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5975DCDC1C1E14D800A9A54F /* LAVHeaderCell.xib */; };
+		5975DCE11C1E232100A9A54F /* LAVPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCE01C1E232100A9A54F /* LAVPhotoCell.m */; };
+		5975DCE41C1E236B00A9A54F /* LAVCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975DCE31C1E236B00A9A54F /* LAVCommentCell.m */; };
+		59EA0A4E1C207937002CDB90 /* LAVServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EA0A4D1C207937002CDB90 /* LAVServerManager.m */; };
+		59EA0A531C20A943002CDB90 /* LAVInstagramObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EA0A521C20A943002CDB90 /* LAVInstagramObj.m */; };
+		AAB035134433A7F533D50F17 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E772732B2E8FB9C0ABD6C6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5975DCB51C1E03C300A9A54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5975DC931C1E03C300A9A54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5975DC9A1C1E03C300A9A54F;
+			remoteInfo = LAVInstaClient;
+		};
+		5975DCC01C1E03C300A9A54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5975DC931C1E03C300A9A54F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5975DC9A1C1E03C300A9A54F;
+			remoteInfo = LAVInstaClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5975DC9B1C1E03C300A9A54F /* LAVInstaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAVInstaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975DC9F1C1E03C300A9A54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5975DCA11C1E03C300A9A54F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5975DCA21C1E03C300A9A54F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5975DCA81C1E03C300A9A54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5975DCAA1C1E03C300A9A54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5975DCAD1C1E03C300A9A54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5975DCAF1C1E03C300A9A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5975DCB41C1E03C300A9A54F /* LAVInstaClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAVInstaClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975DCB81C1E03C300A9A54F /* LAVInstaClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAVInstaClientTests.m; sourceTree = "<group>"; };
+		5975DCBA1C1E03C300A9A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5975DCBF1C1E03C300A9A54F /* LAVInstaClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAVInstaClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975DCC31C1E03C300A9A54F /* LAVInstaClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAVInstaClientUITests.m; sourceTree = "<group>"; };
+		5975DCC51C1E03C300A9A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5975DCD41C1E0DA600A9A54F /* LAVFeedTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVFeedTVC.h; sourceTree = "<group>"; };
+		5975DCD51C1E0DA600A9A54F /* LAVFeedTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVFeedTVC.m; sourceTree = "<group>"; };
+		5975DCDA1C1E14D800A9A54F /* LAVHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVHeaderCell.h; sourceTree = "<group>"; };
+		5975DCDB1C1E14D800A9A54F /* LAVHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVHeaderCell.m; sourceTree = "<group>"; };
+		5975DCDC1C1E14D800A9A54F /* LAVHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LAVHeaderCell.xib; sourceTree = "<group>"; };
+		5975DCDF1C1E232100A9A54F /* LAVPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVPhotoCell.h; sourceTree = "<group>"; };
+		5975DCE01C1E232100A9A54F /* LAVPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVPhotoCell.m; sourceTree = "<group>"; };
+		5975DCE21C1E236B00A9A54F /* LAVCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVCommentCell.h; sourceTree = "<group>"; };
+		5975DCE31C1E236B00A9A54F /* LAVCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVCommentCell.m; sourceTree = "<group>"; };
+		59EA0A4C1C207937002CDB90 /* LAVServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVServerManager.h; sourceTree = "<group>"; };
+		59EA0A4D1C207937002CDB90 /* LAVServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVServerManager.m; sourceTree = "<group>"; };
+		59EA0A511C20A942002CDB90 /* LAVInstagramObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAVInstagramObj.h; sourceTree = "<group>"; };
+		59EA0A521C20A943002CDB90 /* LAVInstagramObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAVInstagramObj.m; sourceTree = "<group>"; };
+		6E0D2BF6AE59CCE15EAE912C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7C4F972BEF0A94FE4C4F292D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E772732B2E8FB9C0ABD6C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5975DC981C1E03C300A9A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB035134433A7F533D50F17 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCB11C1E03C300A9A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCBC1C1E03C300A9A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5975DC921C1E03C300A9A54F = {
+			isa = PBXGroup;
+			children = (
+				5975DC9D1C1E03C300A9A54F /* LAVInstaClient */,
+				5975DCB71C1E03C300A9A54F /* LAVInstaClientTests */,
+				5975DCC21C1E03C300A9A54F /* LAVInstaClientUITests */,
+				5975DC9C1C1E03C300A9A54F /* Products */,
+				D3E68032B2D60F94635846C4 /* Pods */,
+				67C60BE1AB290AEBA619BD65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5975DC9C1C1E03C300A9A54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5975DC9B1C1E03C300A9A54F /* LAVInstaClient.app */,
+				5975DCB41C1E03C300A9A54F /* LAVInstaClientTests.xctest */,
+				5975DCBF1C1E03C300A9A54F /* LAVInstaClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5975DC9D1C1E03C300A9A54F /* LAVInstaClient */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCA11C1E03C300A9A54F /* AppDelegate.h */,
+				5975DCA21C1E03C300A9A54F /* AppDelegate.m */,
+				5975DCE61C1E32FA00A9A54F /* Controller */,
+				59EA0A501C20894E002CDB90 /* Model */,
+				5975DCE51C1E32E800A9A54F /* Views */,
+				5975DC9E1C1E03C300A9A54F /* Supporting Files */,
+			);
+			path = LAVInstaClient;
+			sourceTree = "<group>";
+		};
+		5975DC9E1C1E03C300A9A54F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCAA1C1E03C300A9A54F /* Assets.xcassets */,
+				5975DCAC1C1E03C300A9A54F /* LaunchScreen.storyboard */,
+				5975DCAF1C1E03C300A9A54F /* Info.plist */,
+				5975DC9F1C1E03C300A9A54F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5975DCB71C1E03C300A9A54F /* LAVInstaClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCB81C1E03C300A9A54F /* LAVInstaClientTests.m */,
+				5975DCBA1C1E03C300A9A54F /* Info.plist */,
+			);
+			path = LAVInstaClientTests;
+			sourceTree = "<group>";
+		};
+		5975DCC21C1E03C300A9A54F /* LAVInstaClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCC31C1E03C300A9A54F /* LAVInstaClientUITests.m */,
+				5975DCC51C1E03C300A9A54F /* Info.plist */,
+			);
+			path = LAVInstaClientUITests;
+			sourceTree = "<group>";
+		};
+		5975DCE51C1E32E800A9A54F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCDA1C1E14D800A9A54F /* LAVHeaderCell.h */,
+				5975DCDB1C1E14D800A9A54F /* LAVHeaderCell.m */,
+				5975DCE21C1E236B00A9A54F /* LAVCommentCell.h */,
+				5975DCE31C1E236B00A9A54F /* LAVCommentCell.m */,
+				5975DCDF1C1E232100A9A54F /* LAVPhotoCell.h */,
+				5975DCE01C1E232100A9A54F /* LAVPhotoCell.m */,
+				5975DCDC1C1E14D800A9A54F /* LAVHeaderCell.xib */,
+				5975DCA71C1E03C300A9A54F /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5975DCE61C1E32FA00A9A54F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5975DCD41C1E0DA600A9A54F /* LAVFeedTVC.h */,
+				5975DCD51C1E0DA600A9A54F /* LAVFeedTVC.m */,
+				59EA0A4C1C207937002CDB90 /* LAVServerManager.h */,
+				59EA0A4D1C207937002CDB90 /* LAVServerManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59EA0A501C20894E002CDB90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59EA0A511C20A942002CDB90 /* LAVInstagramObj.h */,
+				59EA0A521C20A943002CDB90 /* LAVInstagramObj.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		67C60BE1AB290AEBA619BD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E772732B2E8FB9C0ABD6C6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E68032B2D60F94635846C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F972BEF0A94FE4C4F292D /* Pods.debug.xcconfig */,
+				6E0D2BF6AE59CCE15EAE912C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5975DC9A1C1E03C300A9A54F /* LAVInstaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975DCC81C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClient" */;
+			buildPhases = (
+				D583FCEE58A8581CEFFEC03E /* Check Pods Manifest.lock */,
+				5975DC971C1E03C300A9A54F /* Sources */,
+				5975DC981C1E03C300A9A54F /* Frameworks */,
+				5975DC991C1E03C300A9A54F /* Resources */,
+				485F1B81B524AE8E98207221 /* Embed Pods Frameworks */,
+				788E46FD6A6A396C6EBB223C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAVInstaClient;
+			productName = LAVInstaClient;
+			productReference = 5975DC9B1C1E03C300A9A54F /* LAVInstaClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5975DCB31C1E03C300A9A54F /* LAVInstaClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975DCCB1C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClientTests" */;
+			buildPhases = (
+				5975DCB01C1E03C300A9A54F /* Sources */,
+				5975DCB11C1E03C300A9A54F /* Frameworks */,
+				5975DCB21C1E03C300A9A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5975DCB61C1E03C300A9A54F /* PBXTargetDependency */,
+			);
+			name = LAVInstaClientTests;
+			productName = LAVInstaClientTests;
+			productReference = 5975DCB41C1E03C300A9A54F /* LAVInstaClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5975DCBE1C1E03C300A9A54F /* LAVInstaClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975DCCE1C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClientUITests" */;
+			buildPhases = (
+				5975DCBB1C1E03C300A9A54F /* Sources */,
+				5975DCBC1C1E03C300A9A54F /* Frameworks */,
+				5975DCBD1C1E03C300A9A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5975DCC11C1E03C300A9A54F /* PBXTargetDependency */,
+			);
+			name = LAVInstaClientUITests;
+			productName = LAVInstaClientUITests;
+			productReference = 5975DCBF1C1E03C300A9A54F /* LAVInstaClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5975DC931C1E03C300A9A54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Lebedev";
+				TargetAttributes = {
+					5975DC9A1C1E03C300A9A54F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9ZRL6WQ232;
+					};
+					5975DCB31C1E03C300A9A54F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9ZRL6WQ232;
+						TestTargetID = 5975DC9A1C1E03C300A9A54F;
+					};
+					5975DCBE1C1E03C300A9A54F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9ZRL6WQ232;
+						TestTargetID = 5975DC9A1C1E03C300A9A54F;
+					};
+				};
+			};
+			buildConfigurationList = 5975DC961C1E03C300A9A54F /* Build configuration list for PBXProject "LAVInstaClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5975DC921C1E03C300A9A54F;
+			productRefGroup = 5975DC9C1C1E03C300A9A54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5975DC9A1C1E03C300A9A54F /* LAVInstaClient */,
+				5975DCB31C1E03C300A9A54F /* LAVInstaClientTests */,
+				5975DCBE1C1E03C300A9A54F /* LAVInstaClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5975DC991C1E03C300A9A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5975DCAE1C1E03C300A9A54F /* LaunchScreen.storyboard in Resources */,
+				5975DCAB1C1E03C300A9A54F /* Assets.xcassets in Resources */,
+				5975DCDE1C1E14D800A9A54F /* LAVHeaderCell.xib in Resources */,
+				5975DCA91C1E03C300A9A54F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCB21C1E03C300A9A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCBD1C1E03C300A9A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485F1B81B524AE8E98207221 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788E46FD6A6A396C6EBB223C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D583FCEE58A8581CEFFEC03E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5975DC971C1E03C300A9A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5975DCA31C1E03C300A9A54F /* AppDelegate.m in Sources */,
+				5975DCE11C1E232100A9A54F /* LAVPhotoCell.m in Sources */,
+				5975DCDD1C1E14D800A9A54F /* LAVHeaderCell.m in Sources */,
+				59EA0A531C20A943002CDB90 /* LAVInstagramObj.m in Sources */,
+				59EA0A4E1C207937002CDB90 /* LAVServerManager.m in Sources */,
+				5975DCE41C1E236B00A9A54F /* LAVCommentCell.m in Sources */,
+				5975DCA01C1E03C300A9A54F /* main.m in Sources */,
+				5975DCD61C1E0DA600A9A54F /* LAVFeedTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCB01C1E03C300A9A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5975DCB91C1E03C300A9A54F /* LAVInstaClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975DCBB1C1E03C300A9A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5975DCC41C1E03C300A9A54F /* LAVInstaClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5975DCB61C1E03C300A9A54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5975DC9A1C1E03C300A9A54F /* LAVInstaClient */;
+			targetProxy = 5975DCB51C1E03C300A9A54F /* PBXContainerItemProxy */;
+		};
+		5975DCC11C1E03C300A9A54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5975DC9A1C1E03C300A9A54F /* LAVInstaClient */;
+			targetProxy = 5975DCC01C1E03C300A9A54F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5975DCA71C1E03C300A9A54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5975DCA81C1E03C300A9A54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5975DCAC1C1E03C300A9A54F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5975DCAD1C1E03C300A9A54F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5975DCC61C1E03C300A9A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5975DCC71C1E03C300A9A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5975DCC91C1E03C300A9A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4F972BEF0A94FE4C4F292D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAVInstaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5975DCCA1C1E03C300A9A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0D2BF6AE59CCE15EAE912C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAVInstaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5975DCCC1C1E03C300A9A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAVInstaClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAVInstaClient.app/LAVInstaClient";
+			};
+			name = Debug;
+		};
+		5975DCCD1C1E03C300A9A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAVInstaClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAVInstaClient.app/LAVInstaClient";
+			};
+			name = Release;
+		};
+		5975DCCF1C1E03C300A9A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LAVInstaClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LAVInstaClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5975DCD01C1E03C300A9A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LAVInstaClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LAV.LAVInstaClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LAVInstaClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5975DC961C1E03C300A9A54F /* Build configuration list for PBXProject "LAVInstaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975DCC61C1E03C300A9A54F /* Debug */,
+				5975DCC71C1E03C300A9A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975DCC81C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975DCC91C1E03C300A9A54F /* Debug */,
+				5975DCCA1C1E03C300A9A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975DCCB1C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975DCCC1C1E03C300A9A54F /* Debug */,
+				5975DCCD1C1E03C300A9A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975DCCE1C1E03C300A9A54F /* Build configuration list for PBXNativeTarget "LAVInstaClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975DCCF1C1E03C300A9A54F /* Debug */,
+				5975DCD01C1E03C300A9A54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5975DC931C1E03C300A9A54F /* Project object */;
+}
